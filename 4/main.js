@@ -35,3 +35,8 @@ function decode(message) {
 
     return reversed;
 }
+
+console.log(decode('hola (odnum)')) // "hola mundo"
+console.log(decode('(olleh) (dlrow)!')) // "hello world!"
+console.log(decode('sa(u(cla)atn)s')) // "santaclaus"
+console.log(decode('((nta)(sa))')) // "santa"
